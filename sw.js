@@ -5,11 +5,11 @@ const CACHE_NAME = 'lab-7-starter';
 
 var FileNames = [
   '/',
-  '/assets/components/RecipeCard.js',
-  '/assets/components/RecipeExpand.js',
-  '/index.html',
-  '/assets/scripts/main.js',
-  '/assets/scripts/Router.js'
+  'assets/components/RecipeCard.js',
+  'assets/components/RecipeExpand.js',
+  'index.html',
+  'assets/scripts/main.js',
+  'assets/scripts/Router.js'
 ];
 
 // Once the service worker has been installed, feed it some initial URLs to cache
