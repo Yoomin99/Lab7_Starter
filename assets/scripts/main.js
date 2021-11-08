@@ -270,7 +270,6 @@ function bindPopstate() {
     {
       console.log("curr_state:blahblah");
     }
-    temp = null;
 
     if(!null)
     {
