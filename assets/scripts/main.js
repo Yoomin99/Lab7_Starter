@@ -265,6 +265,22 @@ function bindPopstate() {
    window.addEventListener('popstate', (event) => {
     console.log(event.state); // prints out {curr_state: blahblah} and . . . or NULL  // event.state is an object
     
+    
+    if(event.state)
+    {
+      console.log("curr_state:blahblah");
+    }
+    temp = null;
+
+    if(!null)
+    {
+      {
+        console.log("NULLLLLLLLLLLLLLLL");
+      }
+
+    }
+
+
     if(event.state)
     {
       console.log(event.state.curr_state);
